@@ -43,4 +43,4 @@ $Shortcut.Save()
 curl "https://cdn.sanity.io/files/r09655ln/production/0248c3996024ac04a0482b051ce3905b76864528.zip" 
 
 # Modification de la politique de vérification des scripts pour reprotéger l'utilsateur
-Set-ExecutionPolicy -ExecutionPolicy AllSigned Unrestricted -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
